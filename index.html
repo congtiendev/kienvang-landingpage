@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.8.2/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body style="font-family: 'Inter', sans-serif">
+    <div class="bg-white relative">
+      <nav class="navbar hidden lg:flex mx-auto bg-base-100 max-w-5xl py-5">
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-xl">
+            <img
+              class="w-[50px] h-[50px]"
+              src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/chuyen-nha-kien-vang-logo-1.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="flex-none ml-[60px]">
+          <ul class="menu menu-horizontal px-1 text-[15px] font-semibold">
+            <li><a href="https://chuyennhakienvanghn.vn/">Trang chủ</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/gioi-thieu/">Giới thiệu</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/nang-luc/">Năng Lực</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/chuyen-nha-ha-noi/">Chuyển nhà Hà Nội</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/chuyen-nha-van-phong">Chuyển văn phòng</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/taxi-tai">Taxi tải</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/ngay-tot"> Ngày tốt</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/cam-nang">Cẩm nang</a></li>
+            <li>
+              <details>
+                <summary>Tin tức</summary>
+                <ul class="p-2 bg-base-100">
+                  <li>
+                    <a href="https://chuyennhakienvanghn.vn/dich-vu-tai-quan-huyen-ha-noi/" class="whitespace-nowrap"
+                      >Dịch Vụ Tại Quận, Huyện Hà Nội</a
+                    >
+                  </li>
+                  <li class="whitespace-nowrap"><a href="https://chuyennhakienvanghn.vn/goc-chia-se/">Góc chia sẻ</a></li>
+                  <li class="whitespace-nowrap"><a href="https://chuyennhakienvanghn.vn/tin-khuyen-mai/">Tin khuyến mại</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <a href="https://chuyennhakienvanghn.vn/lien-he/">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+<div class="lg:hidden navbar bg-base-100">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <label tabindex="0" class="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+      </label>
+      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="https://chuyennhakienvanghn.vn/">Trang chủ</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/gioi-thieu/">Giới thiệu</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/nang-luc/">Năng Lực</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/chuyen-nha-ha-noi/">Chuyển nhà Hà Nội</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/chuyen-nha-van-phong">Chuyển văn phòng</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/taxi-tai">Taxi tải</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/ngay-tot"> Ngày tốt</a></li>
+            <li><a href="https://chuyennhakienvanghn.vn/cam-nang">Cẩm nang</a></li>
+            <li>
+              <details>
+                <summary>Tin tức</summary>
+                <ul class="p-2 bg-base-100">
+                  <li>
+                    <a href="https://chuyennhakienvanghn.vn/dich-vu-tai-quan-huyen-ha-noi/" class="whitespace-nowrap"
+                      >Dịch Vụ Tại Quận, Huyện Hà Nội</a
+                    >
+                  </li>
+                  <li class="whitespace-nowrap"><a href="https://chuyennhakienvanghn.vn/goc-chia-se/">Góc chia sẻ</a></li>
+                  <li class="whitespace-nowrap"><a href="https://chuyennhakienvanghn.vn/tin-khuyen-mai/">Tin khuyến mại</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <a href="https://chuyennhakienvanghn.vn/lien-he/">Liên hệ</a>
+            </li>
+      </ul>
+    </div>
+  </div>
+  <div class="navbar-center">
+    <a class="btn btn-ghost normal-case text-xl">
+      <img class="w-[50px] h-[50px]" src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/chuyen-nha-kien-vang-logo-1.png" alt="">
+    </a>
+  </div>
+  <div class="navbar-end">
+  </div>
+</div>
+
+
+      <div class="banner w-[100vw] h-auto">
+        <img
+          class="w-full"
+          src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/banner-5.jpg"
+          alt=""
+        />
+      </div>
+      <main
+        class="mx-auto px-5 lg:px-0 w-full py-10 flex justify-center flex-col content-center"
+      >
+        <div
+          class="w-full lg:w-[1130px] mx-auto content flex justify-center gap-5"
+        >
+          <div class="lg:w-[65%] w-full flex flex-col gap-5">
+            <h1 class="text-[30px] font-semibold text-left text-[#FF9900]">
+              Dịch vụ chuyển nhà trọn gói Kiến Vàng
+            </h1>
+            <div class="w-full flex flex-col gap-1">
+              <img
+                class="w-full h-[333px]"
+                src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/chuyen-nha-tron-goi-kien-vang-that-1-1536x699-1-1024x466-1.webp"
+                alt=""
+              />
+              <span class="text-[15px]">Kiến vàng thông báo tới quý khách</span>
+            </div>
+            <div class="content py-2">
+              <p class="text-[17px]">
+                Dịch vụ chuyển nhà trọn gói đang nở rộ vài năm trở lại đây. Điều
+                này được lý giải là do nhu cầu sống của mọi người ngày càng tăng
+                cao. Việc di dời từ nơi ở cũ sang nơi ở mới cần rất nhiều thời
+                gian và công sức. Nếu thuê các dịch vụ vận chuyển bên ngoài sẽ
+                đảm bảo được nhiều yếu tố. Chính sự tiện lợi trong các dịch vụ
+                vận chuyển nhà hiện nay khiến cho thị trường này ngày càng phát
+                triển. Nếu bạn đang tìm hiểu các thông tin liên quan đến dịch vụ
+                chuyển nhà trọn gói thì bài viết này là dành cho bạn.
+              </p>
+            </div>
+            <img
+              src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/Dich-vu-chuyen-nha-tron-goi-gia-re-kien-vang.jpg.webp"
+              alt=""
+              class="w-full rounded-[10px]"
+            />
+            <h2 class="text-left text-[24px] font-bold">
+              Dịch vụ chuyển nhà trọn gói là như thế nào?
+            </h2>
+            <div class="content pb-5">
+              <p class="text-[17px]">
+                Có thể hiểu đơn giản, dịch vụ chuyển nhà trọn gói là dịch vụ hỗ
+                trợ khách hàng di chuyển đồ đạc từ nhà cũ sang nơi ở mới từ A-Z.
+                Bao gồm tất cả các công đoạn như tháo dỡ, đóng gói, khuân vác,
+                vận chuyển ra xe và sắp xếp đồ đạc khi đến nhà mới. Tất cả các
+                công việc này đều được nhân viên thực hiện, chủ nhà không cần
+                phải đụng tay vào bất kỳ việc gì. Tuy nhiên, bạn có thể qua sát
+                và yêu cầu nhân viên thực hiện theo những lưu ý mà mình mong
+                muốn.
+              </p>
+              <div class="w-full flex flex-col gap-1 mt-5">
+                <img
+                  class="w-full h-[333px]"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/Dich-vu-chuyen-nha-tron-goi-la-gi.webp"
+                  alt=""
+                />
+                <span class="text-[15px]"
+                  >Kiến vàng thông báo tới quý khách</span
+                >
+              </div>
+              <p class="text-[17px] my-5">
+                Sau khi công việc hoàn tất, khách hàng có thể nghiệm thu lại quá
+                trình làm việc và tiến hành thanh toán hợp đồng. Mọi thiết bị
+                cần thiết để phục vụ việc vận chuyển như xe tải, thùng xốp,
+                carton, giấy PE… ,đều được cung cấp đầy đủ trong hợp đồng chuyển
+                dọn nhà trọn gói. Khách hàng sẽ không phải trả thêm bất kỳ chi
+                phí nào khác ngoài mức giá đã cam kết trong hợp đồng.
+              </p>
+              <h2 class="text-left text-[24px] font-bold">
+                Đôi nét về dịch vụ chuyển nhà trọn gói Kiến Vàng
+              </h2>
+              <span class="text-[17px] block mt-3">
+                Công ty dịch vụ chuyển nhà Kiến Vàng được thành lập từ năm 2012.
+              </span>
+              <div class="list py-5">
+                <h3 class="text-[20px] font-semibold">Lĩnh vực hoạt động:</h3>
+                <ul class="flex flex-col gap-3 pl-10 py-3">
+                  <li>Chuyển nhà trọn gói</li>
+                  <li>Vận chuyển văn phòng trọn gói</li>
+                  <li>Dịch vụ chuyển nhà</li>
+                  <li>Chuyển nhà liên tỉnh</li>
+                  <li>Chuyển nhà Hà Nội</li>
+                  <li>Chuyển đồ sinh viên</li>
+                </ul>
+              </div>
+              <h2 class="text-left text-[24px] font-bold">
+                Có nên thuê dịch vụ chuyển nhà Kiến Vàng hay không?
+              </h2>
+              <p class="text-[17px] my-5">
+                Thay vì tự mình di chuyển đồ đạc hoặc thuê các loại xe ba gác có
+                tải trọng nhỏ, bạn nên nghĩ đến việc thuê dịch vụ vận chuyển nhà
+                trọn gói Hà Nội. Những lý do dưới đây sẽ khiến bạn đồng ý rằng
+                dịch vụ chuyển nhà mang đến những tiện ích nhất định:
+              </p>
+              <h3 class="text-[20px] font-semibold">
+                Quy trình khoa học, bài bản
+              </h3>
+              <ul class="flex flex-col gap-3 pl-10 py-6">
+                <li>
+                  Dịch vụ chuyển nhà trọn gói của Kiến Vàng đều làm việc dựa
+                  trên quy trình chuyên nghiệp và khoa học.
+                </li>
+                <li>
+                  Đội ngũ nhân viên Kiến Vàng được đào tạo chuyên nghiệp nên làm
+                  việc khá bài bản, từ tháo dỡ, đóng gói đến việc vận chuyển đồ
+                  đạc.
+                </li>
+                <li>
+                  Sự tháo vát và chuyên nghiệp giúp cho các công đoạn diễn ra
+                  nhanh chóng, dễ dàng. Hạn chế việc trầy xước, hư hỏng đồ đạc
+                  trong quá trình vận chuyển.
+                </li>
+              </ul>
+              <h3 class="text-[20px] font-semibold">
+                Có đầy đủ các thiết bị hỗ trợ
+              </h3>
+              <ul class="flex flex-col gap-3 pl-10 py-6">
+                <li>
+                  Đây là ưu điểm mà chỉ khi bạn chọn các dịch vụ vận chuyển trọn
+                  gói Kiến Vàng mới có thể nhận được.
+                </li>
+                <li>
+                  Nếu trong quá trình vận chuyển xảy ra các tình trạng hư hại
+                  không mong muốn, bạn sẽ nhận được sự hỗ trợ tương xứng với giá
+                  trị đồ vật đó.
+                </li>
+                <li>
+                  Chính sách đền bù của dịch vụ chuyển nhà trọn gói Kiến Vàng
+                  luôn giúp khách hàng an tâm khi sử dụng dịch vụ.
+                </li>
+              </ul>
+              <h3 class="text-[20px] font-semibold">
+                Không phát sinh chi phí khác ngoài giá trị hợp đồng
+              </h3>
+              <ul class="flex flex-col gap-3 pl-10 py-6">
+                <li>
+                  Khi bạn ký kết hợp đồng thuê dịch vụ chuyển nhà trọn gói tại
+                  Kiến Vàng, bạn chỉ cần trả đúng giá trị mà hợp đồng quy định.
+                </li>
+                <li>
+                  Đây là ưu điểm giúp khách hàng không phải trả các chi phí phát
+                  sinh khác. Toàn bộ chi phí dịch vụ đã được ghi chú rõ ràng
+                  trong bản hợp đồng, khách hàng có quyền căn cứ vào đó để thanh
+                  toán mà không phải chịu các chi phí nào khác.
+                </li>
+              </ul>
+
+              <div class="w-full flex flex-col gap-3 mt-5">
+                <img
+                  class="w-full"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/dich-vu-chuyen-nha-tron-goi-kien-vang-2022-768x512-1.webp"
+                  alt=""
+                />
+                <span class="text-[15px]"
+                  >Dịch vụ chuyển nhà giúp bạn tiết kiệm chi phí và công
+                  sức​</span
+                >
+              </div>
+              <h2 class="text-[24px] font-semibold my-5">
+                Có những dịch vụ cho thuê xe chuyển nhà nào?
+              </h2>
+              <span class="block text-[17px] my-5">
+                Các loại xe chuyển nhà hiện nay rất đa dạng, bao gồm:
+              </span>
+              <ul class="flex flex-col gap-3 pl-10">
+                <li>
+                  Xe taxi tải chuyển nhà trọn gói: Xe tải 1,25 tấn, xe tải 2,5
+                  tấn, xe tải 3,5 tấn, xe tải 5 tấn, xe tải 8 tấn,
+                </li>
+                <li>
+                  Xe con chuyển nhà trọn gói: Loại xe này thường chở người, và
+                  các đồ đạc nhỏ, không cồng kềnh. Nhưng khách hàng có đồ đạc ít
+                  có thể áp dụng loại xe này, thường phù hợp với chuyển nhà trọn
+                  gói sinh viên
+                </li>
+                <li>Xe cẩu, cẩu tự hành phục vụ chuyển nhà trọn gói…</li>
+              </ul>
+              <p class="text-[17px] my-5">
+                Tùy thuộc vào nhu cầu vận chuyển mà khách hàng có thể lựa chọn
+                thuê loại xe phù hợp. Những loại xe chuyển nhà này không chỉ
+                tiện lời mà còn giúp bạn tiết kiệm được thời gian, công sức.
+                Diện tích của thùng xe lớn giúp vận chuyển cùng lúc được nhiều
+                đồ đạc. Khi thời gian vận chuyển được rút ngắn cũng vô tình giúp
+                bạn tiết kiệm được số tiền lớn. Nhìn chung, với việc tự chở cồng
+                kềnh và gặp nhiều rủi ro thì việc thuê xe chuyển nhà là một
+                trong những lựa chọn hiệu quả.
+              </p>
+              <h2 class="text-[24px] font-semibold my-5">
+                Giá chuyển nhà trọn gói Kiến Vàng cập nhất 2023
+              </h2>
+              <div class="w-full flex flex-col gap-2 my-5">
+                <img
+                  class="w-full"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/Gia-dich-vu-chuyen-nha-hien-nay-la-bao-nhieu.webp"
+                  alt=""
+                />
+                <span class="text-[15px]"
+                  >Giá dịch vụ chuyển nhà hiện nay là bao nhiêu ?​</span
+                >
+              </div>
+              <p class="text-[17px] mb-5">
+                Rất khó để đưa ra mức giá chính xác cho dịch vụ chuyển nhà trọn
+                gói. Vì đây là hình thức kinh doanh dịch vụ nên giá cả có thể
+                lên xuống phụ thuộc vào nhiều yếu tố khác nhau. Thị trường, thời
+                gian, quãng đường vận chuyển, số lượng đồ đạc,…là những nguyên
+                nhân có thể dẫn đến sự biến động giá cả khó kiểm soát.
+              </p>
+              <p class="text-[17px]">
+                Bên cạnh đó, chính sách kinh doanh của mỗi đơn vị vận chuyển sẽ
+                có ít nhiều khác nhau. Điều này cũng khiến cho bảng giá dịch vụ
+                chuyển nhà có sự chênh lệch nhất định. Vì thế, để biết chính xác
+                chi phí mà mình phải chi trả, Khách hàng nên liên hệ trực tiếp
+                với đơn vị mà mình muốn sử dụng dịch vụ. Khi đó, đơn vị sẽ trực
+                tiếp xuống khảo sát tình hình thực tế và đưa ra mức báo giá cụ
+                thể nhất.
+              </p>
+              <h2 class="text-[24px] font-semibold my-5">
+                Bảng giá chuyển nhà trọn gói 2023
+              </h2>
+              <p class="text-[17px]">
+                Bảng báo giá chuyển nhà trọn gói liên tỉnh, tại Hà Nội, chuyển
+                nhà trọn gói Bắc Nam của kiến vàng được cập nhật như sau
+              </p>
+              <img
+                class="w-full my-5"
+                src="./assets/img/Screenshot from 2023-10-02 11-41-34.png"
+                alt=""
+              />
+              <h2 class="text-[24px] font-semibold my-5">
+                Quy trình cung cấp dịch vụ chuyển nhà trọn gói Kiến Vàng
+              </h2>
+              <div class="w-full flex flex-col gap-2 my-5">
+                <img
+                  class="w-full"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/quy-trinh-chuyen-nha-tron-goi-kien-vang.webp"
+                  alt=""
+                />
+                <span class="text-[15px]"
+                  >Quy trình chuyển nhà trọn gói Kiến Vàng​</span
+                >
+              </div>
+              <p class="my-5 text-[17px]">
+                Nếu bạn đang thắc mắc quy trình chuyển nhà của Kiến Vàng trải
+                qua những công đoạn nào thì nội dung dưới đây sẽ tiết lộ cụ thể
+                điều đó:
+              </p>
+              <div class="step flex flex-col gap-5">
+                <div class="step_1">
+                  <h2 class="text-[20px] font-semibold">
+                    Bước 1: Tiếp nhận thông tin liên hệ của khách hàng
+                  </h2>
+                  <ul class="flex flex-col gap-3 pl-10 py-6">
+                    <li>
+                      Khi khách hàng liên hệ để sử dụng dịch vụ, hệ thống chăm
+                      sóc khách hàng sẽ tiếp nhận yêu cầu và chuyển đến bộ phận
+                      liên quan.
+                    </li>
+                    <li>
+                      Thông tin của khách hàng sẽ được giải quyết trong thời
+                      gian sớm nhất có thể.
+                    </li>
+                  </ul>
+                </div>
+                <div class="step_2">
+                  <h2 class="text-[20px] font-semibold">
+                    Bước 2: Khảo sát thực tế và báo giá
+                  </h2>
+                  <ul class="flex flex-col gap-3 pl-10 py-6">
+                    <li>
+                      Đầu tiên, đội ngũ nhân viên chuyển nhà trọn gói Kiến Vàng
+                      sẽ cho nhân viên đến tại địa chỉ mà khách hàng cung cấp để
+                      khảo sát tình hình thực tế. Nhân viên Kiến Vàng sẽ xác
+                      định chính xác quãng đường, thời gian vận chuyển, số lượng
+                      đồ đạc,…để xác định mức giá chi tiết nhất.
+                    </li>
+                    <li>
+                      Sau khi hoàn tất quá trình khảo sát sẽ đưa ra bản hợp đồng
+                      chi tiết để khách hàng xem xét. Khách hàng có thể thương
+                      thảo các hạng mục được đề cập trong hợp đồng để đôi bên
+                      cùng thống nhất.
+                    </li>
+                  </ul>
+                </div>
+                <div class="step_3">
+                  <h2 class="text-[20px] font-semibold">
+                    Bước 3: Ký kết hợp đồng
+                  </h2>
+                  <p class="text-[17px] py-3">
+                    Đây là bước đôi bên sẽ chính thức thảo thuận sử dụng và cung
+                    cấp dịch vụ chuyển nhà, chuyển nhà trọn gói
+                  </p>
+                </div>
+                <div class="step_4">
+                  <h2 class="text-[20px] font-semibold">
+                    Bước 4: Tiến hành công đoạn vận chuyển
+                  </h2>
+                  <ul class="flex flex-col gap-3 pl-10 py-6">
+                    <li>
+                      Đầu tiên, Khách hàng cung cấp cho công ty chuyển nhà Kiến
+                      Vàng ngày vận chuyển đồ đạc.
+                    </li>
+                    <li>
+                      Căn cứ vào đó nhân viên sẽ tiến hành các công đoạn tháo
+                      dỡ, đóng gói và vận chuyển vật dụng từ nhà cũ sang nhà
+                      mới.
+                    </li>
+                    <li>
+                      Khách hàng có thể quan sát quá trình làm việc của nhân
+                      viên nhưng không cần hỗ trợ bất kỳ điều gì. Bạn có thể yêu
+                      cầu nhân viên thực hiện các lưu ý theo mong muốn của mình.
+                    </li>
+                  </ul>
+                </div>
+                <div class="step_5">
+                  <h2 class="text-[20px] font-semibold">
+                    Bước 5: Kiểm tra và thanh toán số tiền còn lại
+                  </h2>
+                  <ul class="flex flex-col gap-3 pl-10 py-6">
+                    <li>
+                      Cuối cùng là bước nghiệm thu và thanh toán hợp đồng. Khách
+                      hàng tiến hành nghiệm thu và kiểm tra mọi thứ xem có xảy
+                      ra hư hại hay thiếu sót gì không.
+                    </li>
+                    <li>
+                      Nếu mọi việc đều ổn thỏa thì tiến hành thanh toán số tiền
+                      còn lại trong hợp đồng. Ngược lại, nếu có rủi ro xảy ra
+                      thì đôi bên sẽ thương thảo việc đền bù phù hợp nhất.
+                    </li>
+                  </ul>
+                </div>
+                <h1 class="text-[24px] font-semibold">
+                  Ưu điểm khi sử dụng dịch vụ chuyển nhà giá rẻ tại Kiến Vàng
+                </h1>
+                <p class="text-[17px] py-5">
+                  Để cạnh tranh với các đối thủ trên thị trường, Kiến Vàng buộc
+                  phải tạo ra những ưu điểm tốt nhất để thu hút khách hàng. Dưới
+                  đây là những nguyên nhân giúp bạn nhanh chóng “chốt đơn” các
+                  dịch vụ vận chuyển tại đơn vị này.
+                </p>
+
+                <h2 class="text-[20px] font-semibold">Tiết kiệm chi phí</h2>
+                <ul class="flex flex-col gap-3 pl-10">
+                  <li>
+                    Dịch vụ chuyển nhà trọn gói giá rẻ Kiến Vàng sẽ giúp bạn
+                    tiết kiệm từ 20 – 30% khi tự tay chuyển nhà. Bởi chúng tôi
+                    có hệ thống máy móc hiện đại, tăng năng suất vận chuyển,
+                    không bị thất thoát và phát sinh cách chi phí khác trong quá
+                    trình vận chuyển
+                  </li>
+                  <li>
+                    Hiện tại Kiến Vàng đang có chương trình giảm giá 5% phí dịch
+                    vụ chuyển nhà trọn gói, hãy nhanh tay để nhận ưu đãi khi sử
+                    dụng dịch vụ nhé
+                  </li>
+                </ul>
+
+                <h2 class="text-[20px] font-semibold">
+                  Rút ngắn thời gian vận chuyển
+                </h2>
+                <ul class="flex flex-col gap-3 pl-10">
+                  <li>
+                    Đến với dịch vụ chuyển nhà trọn gói Kiến Vàng thì tối đa chỉ
+                    mất một ngày hoặc dài hơn chút nếu quãng đường xa.
+                  </li>
+                  <li>
+                    Với hệ thống xe taxi tải chất lượng, thùng xe lớn, Kiến Vàng
+                    sẽ giúp bạn rút ngắn được nhiều thời gian nếu sử dụng dịch
+                    vụ chuyển nhà.
+                  </li>
+                </ul>
+                <h2 class="text-[20px] font-semibold">
+                  Các thành viên trong gia đình không phải tốn sức
+                </h2>
+                <p class="text-[17px]">
+                  Mỗi lần chuyển nhà đều rất mất công sức và nó trở thành nỗi ám
+                  ảnh của các thành viên trong gia đình. Vì thế, để các thành
+                  viên trong gia đình không cảm thấy mệt mỏi với những lần
+                  chuyển nhà, bạn nên nghĩ đến việc thuê dịch vụ vận chuyển. Các
+                  thành viên chỉ cần hỗ trợ những công việc trang trí cho tổ ấm
+                  mới của mình mà thôi.
+                </p>
+
+                <h2 class="text-[20px] font-semibold">
+                  Đảm bảo đồ đạc nguyên vẹn, tránh trầy xước
+                </h2>
+                <ul class="flex flex-col gap-3 pl-10">
+                  <li>
+                    Việc vật dụng bị hư hỏng trong quá trình di chuyển rất dễ
+                    xảy ra nếu không có phương án chuẩn bị tốt nhất. Nhưng nếu
+                    bạn sử dụng dịch vụ vận chuyển nhà tại Kiến Vàng thì mọi thứ
+                    sẽ được kiểm soát tốt hơn.
+                  </li>
+                  <li>
+                    Với hệ thống xe lớn, đảm bảo chất lượng, việc di chuyển đồ
+                    đạc sẽ hạn chế được vấn đề hư hỏng, trầy xước.
+                  </li>
+                  <li>
+                    Đặc biệt, các nhân viên sẽ đóng gói đồ đạc trong những thùng
+                    xốp với vật liệu mềm, chống sốc nên khó có thể xảy ra việc
+                    đổ vỡ.
+                  </li>
+                  <li>
+                    Công ty vận tải Kiến Vàng còn có chế độ bồi thường thiệt hại
+                    100% giá trị vật dụng. Điều này rất khó nhận được từ các
+                    dịch vụ vận chuyển nhỏ lẻ.
+                  </li>
+                </ul>
+                <img
+                  class="w-full mt-5"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/Nhan-vien-co-kinh-nghiem-nen-han-che-duoc-hu-hong-tray-xuoc.webp"
+                  alt=""
+                />
+                <span class="text-xs"
+                  >Nhân viên có kinh nghiệm nên hạn chế được hư hỏng, trầy
+                  xước</span
+                >
+                <h2 class="text-[24px] font-semibold">
+                  Một số lưu ý khi sử dụng dịch vụ chuyển nhà trọn gói
+                </h2>
+                <p class="text-[17px]">
+                  Để sử dụng dịch vụ chuyển nhà hiệu quả, khách hàng cần lưu ý
+                  một số vấn đề dưới đây
+                </p>
+                <div class="luu-y flex flex-col gap-5">
+                  <div class="luu-y-1 flex flex-col gap-5">
+                    <h2 class="text-[20px] font-semibold">
+                      Tìm kiếm đơn vị vận chuyển uy tín
+                    </h2>
+                    <p class="text-[17px]">
+                      Đây là tiêu chí hàng đầu mà khách hàng nên ưu tiên. Do thị
+                      trường phát triển nên càng có nhiều đơn vị cung cấp dịch
+                      vụ vận chuyển nhà trọn gói. Điều này sẽ làm bạn phân vân
+                      không biết nên lựa chọn đơn vị nào. Để hạn chế rủi ro, bạn
+                      nên tham khảo thông tin trên mạng hoặc xin ý kiến những
+                      người đã sử dụng dịch vụ.
+                    </p>
+                  </div>
+
+                  <div class="luu-y-2 flex flex-col gap-5">
+                    <h2 class="text-[20px] font-semibold">
+                      Đảm bảo dịch vụ có hợp đồng rõ ràng
+                    </h2>
+                    <p class="text-[17px]">
+                      Hợp đồng ký kết là điều kiện pháp lý cần thiết để bạn bảo
+                      đảm quyền lợi của mình. Vì thế khi chọn đơn vị cung cấp
+                      dịch vụ nào cũng nên ưu cầu có hợp đồng cụ thể. Điều này
+                      giúp bạn tránh việc bị lừa đảo. Bạn cũng chỉ cần trả tiền
+                      đúng với giá trị hợp đồng chứ không cần phải trả thêm
+                      những chi phí phát sinh khác. Nếu có rủi ro trong quá
+                      trình vận chuyển thì có thể căn cứ vào hợp đồng để làm
+                      việc.
+                    </p>
+                  </div>
+
+                  <div class="luu-y-3 flex flex-col gap-5">
+                    <h2 class="text-[20px] font-semibold">
+                      Liên hệ với đơn vị vận chuyển trước 2-3 ngày
+                    </h2>
+                    <p class="text-[17px]">
+                      Nếu bạn không rơi vào tình trạng chuyển nhà khẩn cấp thì
+                      nên liên hệ đơn vị vận chuyển 2-3 ngày. Điều này giúp cho
+                      đôi bên có được sự chuẩn bị tốt nhất để quá trình vận
+                      chuyển diễn ra nhanh chóng, hiệu quả. Đặc biệt, đối với
+                      những khách hàng có quãng đường di chuyển xa thì càng nên
+                      chuẩn bị tốt để tiết kiệm được thời gian và công sức.
+                    </p>
+                  </div>
+
+                  <div class="luu-y-4 flex flex-col gap-5">
+                    <h2 class="text-[20px] font-semibold">
+                      Chọn ngày chuyển nhà hợp phong thủy
+                    </h2>
+                    <p class="text-[17px]">
+                      Phong thủy có yếu tố rất quan trọng trong quá trình vận
+                      chuyển nhà ở. Bạn có thể lựa chọn ngày và giờ đẹp để thực
+                      hiện việc chuyển sang nhà mới. Các đơn vị vận chuyển đôi
+                      khi cũng nhận hỗ trợ tư vấn điều này. Khách hàng có thể
+                      nhờ sự tư vấn của nhân viên nếu có nhu cầu.
+                    </p>
+                  </div>
+
+                  <div class="luu-y-4 flex flex-col gap-5">
+                    <h2 class="text-[20px] font-semibold">
+                      Tham khảo một số dịch vụ chuyển đồ tại Kiến Vàng
+                    </h2>
+                    <p class="text-[17px]">
+                      Kiến Vàng là đơn vị cung cấp các dịch vụ vận chuyển tối ưu
+                      và chất lượng nhất trên thị trường hiện nay. Dưới đây là
+                      một số loại hình dịch vụ mà Kiến vàng đã và đang kinh
+                      doanh:
+                    </p>
+                  </div>
+
+                  <div class="luu-y-4 flex flex-col gap-5">
+                    <h2 class="text-[20px] font-semibold">
+                      Dịch vụ chuyển nhà trọn gói
+                    </h2>
+                    <p class="text-[17px]">
+                      Dịch vụ chuyển nhà trọn gói từ A-Z là loại hình nổi bật
+                      nhất của đơn vị. Taxi tải Kiến Vàng cam kết thực hiện tất
+                      cả các công đoạn như tháo dỡ, đóng gói, vận chuyển và sắp
+                      xếp đồ đạc tại địa chỉ mới. Quy trình nhanh chóng, chuyên
+                      nghiệp và đảm bảo an toàn là những điểm cộng lớn của Kiến
+                      Vàng. Khi sử dụng dịch vụ tại đây, khách hàng sẽ được đảm
+                      bảo mọi quyền lời cần thiết.
+                    </p>
+                  </div>
+
+                  <div class="luu-y-4 flex flex-col gap-5">
+                    <h2 class="text-[20px] font-semibold">
+                      Dịch vụ chuyển văn phòng
+                    </h2>
+                    <p class="text-[17px]">
+                      Dịch vụ chuyển văn phòng cũng là một lựa chọn được nhiều
+                      khách hàng tin tưởng tại Kiến Vàng. Không chỉ đảm bảo sự
+                      uy tín, đơn vị còn mang đến cho khách hàng sự đảm bảo an
+                      toàn về các thiết bị, vật dụng của văn phòng. Mọi công
+                      đoạn đều được đóng gói cẩn thận, bài bản trước khi di
+                      chuyển. Khách hàng sẽ nhận được mức đền bù thỏa đáng khi
+                      đồ đạc bị mất hoặc hư hao.
+                    </p>
+                  </div>
+
+                  <div class="luu-y-4 flex flex-col gap-5">
+                    <h2 class="text-[20px] font-semibold">
+                      Dịch vụ chuyển kho xưởng
+                    </h2>
+                    <p class="text-[17px]">
+                      Dịch vụ vận chuyển kho xưởng yêu cầu các thiết bị chuyên
+                      dụng để bảo đảm an toàn. Kiến Vàng đảm bảo sẽ cung cấp cho
+                      khách hàng đầy đủ những công cụ hỗ trợ cần thiết. Việc vận
+                      chuyển kho xưởng sẽ diễn ra nhanh chóng, chuyên nghiệp và
+                      đảm bảo an toàn tuyệt đối.
+                    </p>
+                  </div>
+                  <img
+                    src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/Kien-Vang-co-dich-vu-chuyen-nha-tron-goi-gia-re-chat-luong.webp"
+                    alt=""
+                  />
+                  <span class="text-xs"
+                    >Kiến Vàng có dịch vụ chuyển nhà trọn gói giá rẻ, chất
+                    lượng</span
+                  >
+                  <h2 class="text-[24px] font-semibold whitespace-nowrap">
+                    Đánh giá chất lượng dịch vụ vận chuyển nhà trọn gói tại Kiến
+                    Vàng
+                  </h2>
+                  <p class="text-[17px]">
+                    Sau nhiều năm hoạt động trong lĩnh vực cung cấp dịch vụ
+                    chuyển nhà trọn gói. Kiến Vàng luôn nhận được sự đáng giá
+                    tốt từ khách hàng. Không chỉ nhờ các ưu điểm như chuyên
+                    nghiệp, an toàn, giá cả phải chăng mà đơn vị còn có chính
+                    sách đền bù rất thỏa đáng. Với mong muốn mang đến cho khách
+                    hàng những trải nghiệm tốt nhất, Kiến Vàng luôn đặt lợi ích
+                    của khách hàng lên trên hết.
+                    <br />
+                    <br />
+                    Hiểu được tâm lý lo lắng trong mỗi lần chuyển nhà, đơn vị
+                    luôn nỗ lực để đồng hành cùng khách hàng trong quá trình di
+                    chuyển qua tổ ấm mới. Sự tin tưởng của khách hàng với Kiến
+                    Vàng được chứng minh bằng những đánh giá tốt trên các group,
+                    hội nhóm. Nhiều người quyết định lựa chọn đơn vị sau lần sử
+                    dụng đầu tiên hoặc giới thiệu cho người quen của mình. Tiếng
+                    lành đồn xa, dần dà Kiến Vàng có được những khách hàng trung
+                    thành. Thị phần nhờ thế mà cũng được mở rộng hơn. Ngoài dịch
+                    vụ chuyển nhà trọn gói thì các dịch vụ như chuyển văn phòng,
+                    kho xưởng hay cho thuê taxi tải cũng được đánh giá cao.
+                  </p>
+                  <img
+                    class="w-full"
+                    src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/Gia-dich-vu-chuyen-nha-hien-nay-la-bao-nhieu-1.webp"
+                    alt=""
+                  />
+                  <span class="text-xs"
+                    >Hầu hết các khách hàng đều đánh giá tốt khi sử dụng dịch vụ
+                    vận chuyển nhà tại Kiến Vàng</span
+                  >
+                  <h2 class="text-[24px] font-semibold">
+                    Khách hàng nói gì về dịch vụ chuyển nhà trọn gói của Kiến
+                    Vàng
+                  </h2>
+                  <img
+                    class="w-full"
+                    src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/chuyen-nha-tron-goi-kien-vang-uy-tin-576x1024.webp"
+                    alt=""
+                  />
+                  <p class="text-[17px]">
+                    Chị
+                    <span class="text-yellow-500 font-medium"
+                      >Nguyễn Thị Nga</span
+                    >
+                    trú tại Phường Xuân Đỉnh chia sẻ: “Tôi đã sử dụng dịch vụ
+                    chuyển nhà trọn gói của công ty Kiến Vàng, gia đình tôi
+                    chuyển nhà từ Thanh Trì về phường Xuân Đỉnh và rất hài lòng
+                    với trải nghiệm của mình. Các nhân viên rất chuyên nghiệp và
+                    chu đáo, đảm bảo mọi thứ được di chuyển an toàn và đúng thời
+                    gian. Tôi sẽ giới thiệu cho bạn bè và gia đình của tôi về
+                    dịch vụ này.”
+                    <br />
+                    <br />
+                    Anh
+                    <span class="text-yellow-500 font-medium"
+                      >Nguyễn Quang Dũng</span
+                    >
+                    trú tại Mỹ Đình chia sẻ: “Tôi đã thuê công ty Kiến Vàng
+                    chuyển nhà từ Hoài Đức Hà Nội về Mỹ Đình. Tôi rất cảm kích
+                    về sự giúp đỡ của công ty trong việc chuyển nhà. Họ đã giúp
+                    tôi đóng gói, di chuyển và sắp xếp đồ đạc của tôi một cách
+                    nhanh chóng và hiệu quả. Điều này giúp tôi tiết kiệm được
+                    rất nhiều thời gian và năng lượng. Tôi sẽ chắc chắn sử dụng
+                    lại dịch vụ này trong tương lai.”
+                    <br />
+                    <br />
+                    Anh
+                    <span class="text-yellow-500 font-medium"
+                      >Nguyễn Văn Nam</span
+                    >
+                    chuyển nhà từ Vĩnh Phúc về Bắc Ninh “Tôi đã từng sử dụng
+                    nhiều dịch vụ chuyển nhà trọn gói trước đây, nhưng công ty
+                    vận tải Kiến Vàng làm tôi rất ấn tượng. Các nhân viên rất
+                    thân thiện và chuyên nghiệp, và họ đảm bảo rằng tất cả các
+                    đồ đạc của tôi được di chuyển một cách an toàn. Tôi khuyên
+                    bạn nên sử dụng dịch vụ này nếu bạn đang cần chuyển nhà.”
+                    <br />
+                    <br />
+                    Chị
+                    <span class="text-yellow-500 font-medium"
+                      >Bùi Thị Phương</span
+                    >: “Tôi đã dành rất nhiều thời gian để tìm kiếm một công ty
+                    chuyển nhà trọn gói tốt và đáng tin cậy, và tôi rất hài lòng
+                    khi sử dụng dịch vụ của công ty vận tải Kiến Vàng. Gia đình
+                    tôi rất nhiều đồ đạc và cần chuyển nhà từ Quận Đống Đa Hà
+                    Nội về Quê là Ba Vì Hà Nội”
+                  </p>
+                  <h2 class="text-[24px] font-semibold">
+                    Câu hỏi thường gặp khi sử dụng chuyển nhà trọn gói Kiến
+                    Vàng?
+                  </h2>
+                  <p class="text-17px">
+                    <span class="my-3 text-[18px] block font-bold text-yellow-500 italic"
+                      >Tôi chỉ thuê xe chuyển nhà thì có được không?
+                    </span>
+                    <p class="text-[17px]">
+                      Hoàn toàn được thưa quý khách, nếu như quý khách chuyển nhà với số lượng đồ đạc ít. Hoặc có đông đảo người thân bạn bè hỗ trợ trong quá trình tháo lắp, phân loại và đóng gói hàng hóa. Thì quý khách có thể chỉ cần thuê xe chuyển nhà là được.
+                    </p>
+                      <span class="my-3 text-[18px] block font-bold text-yellow-500 italic"
+                      >Chuyển nhà trọn gói buổi tối hoặc ngày cuối tuần, ngày lễ tôi có bị tính thêm phí không?
+                    </span>
+                    <p class="text-[17px]">
+                  Việc chuyển nhà vào buổi tối hay ngày lễ, tết quý khách sẽ không bị tính thêm bất ký khoản chi phí nào khác. Nếu như có tình trạng tính thêm chi phí khi chuyển nhà vào buối tối hoặc ngày lễ. Xin quý khách phản hồi trực tiếp đến số điện thoại đường dây nóng 0964 753 766 để được hỗ trợ.
+                    </p>
+
+                     <span class="my-3 text-[18px] block font-bold text-yellow-500 italic"
+                      >Thời gian cung cấp chuyển nhà trọn gói cụ thể của Kiến Vàng?</span>
+                           <p class="text-[17px]">Để phục vụ tối đa nhu cầu của khách hàng, dịch vụ chuyển nhà tại Kiến Vàng hoạt động 24/7, kể cả lễ Tết. Khách hàng có thể liên hệ đơn vị bất kỳ lúc nào nếu muốn.</p>
+
+                               <span class="my-3 text-[18px] block font-bold text-yellow-500 italic"
+                      >Có mất phí khi liên hệ tư vấn dịch vụ không?</span>
+                           <p class="text-[17px]">Khách hàng yên tâm là mọi dịch vụ tư vấn đều được đơn vị cung cấp hoàn toàn miễn phí. Bạn có thể hoàn toàn tham khảo quy trình và mức báo giá của đơn vị để so sánh với các đối thủ trong cùng lĩnh vực. Ngay cả khi bạn từ chối dịch vụ thì đội ngũ nhân viên vẫn niềm nở và hẹn đồng hành một một dịp khác.</p>
+
+                               <span class="my-3 text-[18px] block font-bold text-yellow-500 italic"
+                      >Thời gian hoàn thành quá trình vận chuyển là bao lâu?</span>
+                           <p class="text-[17px]">Đối với những khách hàng vận chuyển trọng nội thành Hà Nội thì chỉ mất tối đa 24h để hoàn thành mọi công việc. Với những trường hợp xa hơn thì đơn vị sẽ sắp xếp thời gian và chuẩn bị các phương án tốt nhất để rút ngắn thời gian vận chuyển.</p>
+
+
+                            <span class="my-3 text-[18px] block font-bold text-yellow-500 italic"
+                      >Nếu xảy ra tình trạng hư hỏng trong quá trình vận chuyển thì giải quyết như thế nào?</span>
+                           <p class="text-[17px]">Theo như chinh sách kinh doanh của đơn vị, nếu rủi ro xảy ra trong quá tình vận chuyển thì khách hàng sẽ được đền bù thỏa đáng. Kiến Vàng cam kết đền bù 100% giá trị đồ đạc bị hư hại.</p>
+
+
+                            <span class="my-3 text-[18px] block font-bold text-yellow-500 italic"
+                      >Nếu xảy ra tình trạng hư hỏng trong quá trình vận chuyển thì giải quyết như thế nào?</span>
+                           <p class="text-[17px]">Theo như chinh sách kinh doanh của đơn vị, nếu rủi ro xảy ra trong quá tình vận chuyển thì khách hàng sẽ được đền bù thỏa đáng. Kiến Vàng cam kết đền bù 100% giá trị đồ đạc bị hư hại.</p>
+
+
+                            <span class="my-3 text-[18px] block font-bold text-yellow-500 italic"
+                      >Kiến Vàng có những dịch vụ vận chuyển nào?</span>
+                           <p class="text-[17px]">Hiện tại, đơn vị đang kinh doanh các dịch vụ như vận chuyển nhà trọn gói, vận chuyển văn phòng, vận chuyển kho xưởng và cho thuê dịch vụ taxi tải. Những dịch vụ này đều cam kết chất lượng hiệu quả và đảm bảo an toàn.</p>
+
+                              <span class="my-3 text-[18px] block font-bold text-yellow-500 italic"
+                      >Sau khi chuyển đến nhà mới đơn vị có hỗ trợ sắp xếp đồ đạc không?</span>
+                           <p class="text-[17px]">Dịch vụ chuyển nhà trọn gói của Kiến Vàng sẽ hỗ trợ khách hàng vận chuyển và sắp xếp đồ đạc vào nhà mới. Nhân viên chỉ cam kết sẽ giúp khách hàng có sự chuẩn bị tốt nhất cho tổ ấm mới của mình.</p>
+
+                  </p>
+                  <h2 class="text-[24px] font-semibold">
+                Hình ảnh chuyển nhà trọn gói thực tế của công ty Kiến Vàng
+                  </h2>
+                  <img class="w-full" src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/chuyen-nha-tron-goi-1.webp" alt="">
+                  <span class="text-xs">Chuyển nhà trọn gói cho khách hàng tại Cầu Giấy</span>
+
+                        <img class="w-full" src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/chuyen-nha-tron-goi-2.webp" alt="">
+                  <span class="text-xs">Nhân viên Kiến Vàng đóng đồ chuyển nhà khách hàng tại Hà Đông</span>
+
+                   <img class="w-full" src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/chuyen-nha-tron-goi-3.webp" alt="">
+                  <span class="text-xs">Chuyển nhà cho khách hàng tại Hải Phòng</span>
+
+                   <img class="w-full" src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/chuyen-nha-tron-goi-4.webp" alt="">
+                  <span class="text-xs">Chuyển nhà cho khách hàng tại TP Hồ Chí Minh</span>
+
+                     <img class="w-full" src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/chuyen-nha-tron-goi-5.webp" alt="">
+                  <span class="text-xs">Chuyển nhà trọn gói khách hàng tại Bắc Ninh</span>
+                </div>
+                <h2 class="text-[24px] font-semibold">
+                  Định hướng phát triển dịch vụ chuyển nhà của Kiến Vàng
+              </h2>
+              <p class="text-[17px]">
+                Theo chia sẻ của bà Vũ Cẩm Tú, chủ tịch công ty cổ phần vận tải Kiến Vàng: “Kiến Vàng sẽ tập trung đẩy mạnh dịch vụ chuyển nhà, chuyển văn phòng trong thời gian tới. Hiện nay, thị trường vận tải cạnh tranh rất khốc liệt, các công ty tập trung mạnh vào marketing để tiếp cận khách hàng. Tuy nhiên với Kiến Vàng, chúng tôi tập trung vào chất lượng dịch vụ và đầu tư vào máy móc vận chuyển. Kiến Vàng đang nỗ lực để trở thành đơn vị vận chuyển được khách hàng tin chọn, nhắc tới chuyển nhà chuyển văn phòng, nghĩ ngay tới Kiến Vàng”
+<br/>
+<br/>
+Ông Trần Kiến Vàng, quản lý tại Công ty Kiến Vàng cũng đang đưa ra nhưng phương án phát triển kinh doanh, marketing cho công ty. Tạo ra một thương hiệu chuyển nhà Kiến Vàng uy tín trong lòng khách hàng, những nội dung chia sẻ chất lượng có tính chuyên môn.
+<br/>
+<br/>
+Trên đây là những nội dung thông tin quan trọng về dịch vụ chuyển nhà trọn gói. Bao gồm các kiến thức cần thiết như quy trình, các lưu ý và lợi ích khi sử dụng dịch vụ. Hy vọng bạn đã có cho mình những lựa chọn đáng tin cậy nhất. Nếu đang tìm kiếm đơn vị vận chuyển nhà trọn gói, hãy liên hệ Kiến Vàng để có những trải nghiệm dịch vụ chất lượng nhất. Khách hàng có thể liên hệ đơn vị thông qua thông tin dưới đây.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="hidden lg:w-[30%] w-full lg:flex flex-col gap-5">
+            <h2 class="text-[24px] font-semibold text-left text-[#700716]">
+              BÁO CHÍ VIẾT VỀ KIẾN VÀNG
+            </h2>
+            <div class="news flex justify-between flex-wrap gap-3 py-2 px-1">
+              <a href="#" class="border border-2 border-black rounded-[10px]">
+                <img
+                  class="w-[154px] h-[47px]"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/dan-tri.webp"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="border border-2 border-black rounded-[10px]">
+                <img
+                  class="w-[154px] h-[47px]"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/tuoi-tre.png.webp"
+                  alt=""
+                />
+              </a>
+
+              <a href="#" class="border border-2 border-black rounded-[10px]">
+                <img
+                  class="w-[154px] h-[47px]"
+                  src="   https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/soha.png.webp"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="border border-2 border-black rounded-[10px]">
+                <img
+                  class="w-[154px] h-[47px]"
+                  src="   https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/vnexpress.png.webp"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="border border-2 border-black rounded-[10px]">
+                <img
+                  class="w-[154px] h-[47px]"
+                  src=" https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/24h.png.webp"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="border border-2 border-black rounded-[10px]">
+                <img
+                  class="w-[154px] h-[47px]"
+                  src=" https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/vnmedia.png.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <h2 class="text-center text-[20px] font-semibold text-[#700716]">
+              GIÁ CƯỚC CHUYỂN NHÀ
+            </h2>
+            <img
+              src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/bao-gia-icon-migco.gif"
+              alt=""
+            />
+
+            <h2 class="text-center text-[20px] font-semibold text-[#700716]">
+            TẢI MẪU HỢP ĐỒNG
+            </h2>
+            <div class="download p-2 w-full h-[150px] border border-2 border-[#ccc]">
+              <span class="text-sm font-semibold text-orange-500">Click " Download " để tải về hợp đồng mẫu Kiến Vàng</span>
+              <a href="https://chuyennhakienvanghn.vn/" class="block mx-auto mt-2 py-4 px-5 text-white font-medium" style="text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    background-color: #2ECC71;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);">Download</a>
+            </div>
+
+                <h2 class="text-center text-[20px] font-semibold text-[#700716]">
+           DỊCH VỤ KIẾN VÀNG
+            </h2>
+               <div class="download p-2 w-full  border border-2 border-[#ccc] flex flex-col gap-5">
+                <div class="service">
+                <h3 class="text-sm font-semibold text-orange-500">TAXI TẢI:</h3>
+                <ul class="p-2 text-xs flex flex-col gap-4">
+                  <li>Taxi tải Hà Nội</li>
+                </ul>
+                </div>
+
+                 <div class="service">
+                <h3 class="text-sm font-semibold text-orange-500">CHUYỂN NHÀ TRỌN GÓI KIẾN VÀNG:</h3>
+                <ul class="p-2 text-xs flex flex-col gap-4">
+                  <li>Chuyển nhà Hà Nội</li>
+                  <li>Chuyển nhà trọn gói TPHCM</li>
+                </ul>
+                </div>
+
+                 <div class="service">
+                <h3 class="text-sm font-semibold text-orange-500">CHUYỂN VĂN PHÒNG:</h3>
+                <ul class="p-2 text-xs flex flex-col gap-4">
+                  <li>Chuyển văn phòng trọn gói </li>
+                  <li>Chuyển kho xưởng trọn gói</li>
+                </ul>
+                </div>
+                         <div class="service">
+                <h3 class="text-sm font-semibold text-orange-500">                GIÁ CƯỚC:
+</h3>
+                <ul class="p-2 text-xs flex flex-col gap-4">
+                  <li>Bảng giá chuyển nhà 2023 </li>
+                </ul>
+                </div>
+               </div>
+                      <h2 class="text-center text-[20px] font-semibold text-[#700716]">
+          Dịch vụ tại Quận Huyện Hà Nội
+            </h2>
+            <div class="service__new flex flex-col gap-1">
+              <div class="news-items flex gap-2 content-center border-b-2 pb-4">
+                <img
+                  class="w-[80px] h-[80px] object-cover"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/2-24-150x150.jpg"
+                  alt=""
+                />
+               <div class="title flex flex-col content-center justify-center gap-3">
+<a href="#" class=" font-semibold text-[14px]">Dịch Vụ Chuyển Nhà Trọn Gói Nam Từ Liêm Uy Tín Giá Rẻ</a>
+<span class="text-xs text-gray-400 font-medium">19 Tháng Chín, 2023</span>
+               </div>
+              </div>
+            </div>
+                  <div class="service__new flex flex-col gap-1">
+              <div class="news-items flex gap-2 content-center border-b-2 pb-4">
+                <img
+                  class="w-[80px] h-[80px] object-cover"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/test5-150x150.png"
+                  alt=""
+                />
+               <div class="title flex flex-col content-center justify-center gap-3">
+<a href="#" class=" font-semibold text-[14px]">Tìm Đơn Vị Chuyển Nhà Tại Huyện Ba Vì Chuyên Nghiệp Giá Tốt</a>
+<span class="text-xs text-gray-400 font-medium">19 Tháng Chín, 2023</span>
+               </div>
+              </div>
+            </div>
+                  <div class="service__new flex flex-col gap-1">
+              <div class="news-items flex gap-2 content-center border-b-2 pb-4">
+                <img
+                  class="w-[80px] h-[80px] object-cover"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/test6-150x150.png"
+                  alt=""
+                />
+               <div class="title flex flex-col content-center justify-center gap-3">
+<a href="#" class=" font-semibold text-[14px]">Địa Chỉ Chuyển Nhà Trọn Gói Tại Huyện Chương Mỹ Giá Rẻ</a>
+<span class="text-xs text-gray-400 font-medium">19 Tháng Chín, 2023</span>
+               </div>
+              </div>
+            </div>
+                  <div class="service__new flex flex-col gap-1">
+              <div class="news-items flex gap-2 content-center border-b-2 pb-4">
+                <img
+                  class="w-[80px] h-[80px] object-cover"
+                  src="https://chuyennhakienvanghn.vn/wp-content/uploads/2023/09/3-6-150x150.webp"
+                  alt=""
+                />
+               <div class="title flex flex-col content-center justify-center gap-3">
+<a href="#" class=" font-semibold text-[14px]">Dịch Vụ Chuyển Nhà Trọn Gói Nam Từ Liêm Uy Tín Giá Rẻ</a>
+<span class="text-xs text-gray-400 font-medium">19 Tháng Chín, 2023</span>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="w-full lg:w-[1130px] mx-auto py-5">
+<ul class="flex flex-col px-3 lg:px-0 lg:flex-row gap-4 justify-between">
+  <li>
+    <div class="info flex flex-col gap-3">
+      <h1 class="text-[22px] font-medium">THÔNG TIN LIÊN HỆ</h1>
+      <h2 class="text-[20px] font-medium text-orange-500 my-3">CÔNG TY CỔ PHẦN ĐẦU TƯ THƯƠNG MẠI VẬN TẢI KIẾN VÀNG</h2>
+      <ul class="address text-sm flex flex-col gap-3 ">
+        <li>Trụ sở: 147 P. Ngọc Thụy, Quận Long Biên, Tp. Hà Nội</li>
+        <li>VPGD: Thụy Khuê, P. Thụy Khuê, Q. Tây Hồ, Tp. Hà Nội</li>
+        <li>Chi nhánh: P. Mễ Trì, Q. Nam Từ Liêm, Tp. Hà Nội</li>
+        <li>Fanpage: F/kienvangcompany</li>
+        <li>Điện Thoại: 0961350350 hoặc 0964753766</li>
+        <li>Email: kienvang2008@gmail.com</li>
+      </ul>
+    </div>
+  </li>
+  <li>
+       <div class="service flex flex-col gap-3">
+      <h1 class="text-[22px] font-medium">THÔNG TIN LIÊN HỆ</h1>
+      <ul class="address text-sm flex flex-col gap-3 ">
+        <li>Bảng giá dịch vụ</li>
+        <li>Taxi Tải chuyển nhà giá rẻ</li>
+        <li>Dịch vụ chuyển văn phòng</li>
+        <li>Fanpage: F/kienvangcompany</li>
+        <li>Chuyển nhà trọn gói Hà Nội</li>
+      </ul>
+      </div>
+  </li>
+    <li>
+       <div class="service flex flex-col gap-3">
+      <h1 class="text-[22px] font-medium">BÀI VIẾT MỚI</h1>
+      <ul class="address text-sm flex flex-col gap-3 ">
+        <li>Ngày tốt chuyển nhà</li>
+        <li>Cẩm nang</li>
+        <li>Tin tức</li>
+        <li>Góc chia sẻ</li>
+        </ul>
+        </div>
+        </li>
+</ul>
+      </footer>
+    </div>
+    <div class="contact flex flex-col gap-5  fixed bottom-20 right-10 ">
+    <a target="_blank" href="https://zalo.me/0964753766">				
+    <img src="https://cdn.haitrieu.com/wp-content/uploads/2022/01/Logo-Zalo-Arc.png" class="zalo__btn w-[50px] h-[50px]  rounded-[12px] animate-bounce ">
+    </a>
+
+     <a target="_blank" href="tel:tel:0961350350">				
+    <img src="https://i.pinimg.com/originals/d4/af/7e/d4af7e27876cab3a9616bc9aabb0a193.jpg" class="zalo__btn w-[50px] h-[50px]  rounded-[12px] animate-bounce ">
+    </a>
+    </div>
+  </body>
+</html>
